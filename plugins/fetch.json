@@ -7,21 +7,22 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-chrome-apps-sockets-tcp": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-sockets-tcp.git",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-chrome-apps-common": {
         "source": {
             "type": "registry",
             "id": "cordova-plugin-chrome-apps-common@1"
         },
         "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-chrome-apps-sockets-tcp": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cs8425/cordova-plugin-chrome-apps-sockets-tcp.git",
+            "subdir": ".",
+            "ref": "fix-tcp-read-stuck"
+        },
+        "is_top_level": true,
         "variables": {}
     }
 }

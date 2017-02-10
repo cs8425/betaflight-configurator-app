@@ -7,7 +7,9 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
+    <preference name="Orientation" value="landscape" />
     <content src="main.html" />
+    <icon src="www/images/bf_icon_128.png" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
